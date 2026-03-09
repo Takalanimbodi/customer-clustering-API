@@ -17,6 +17,7 @@ scikit-learn==1.8.0
 scipy==1.17.0
 six==1.17.0
 SQLAlchemy==2.0.46
+psycopg2-binary
 starlette==0.52.1
 threadpoolctl==3.6.0
 typing-inspection==0.4.2
@@ -24,3 +25,4 @@ typing_extensions==4.15.0
 tzdata==2025.3
 uvicorn==0.41.0
 python-multipart
+
