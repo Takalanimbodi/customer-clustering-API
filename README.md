@@ -5,4 +5,4 @@ If the dataset cantains features for both aggregated model and behavioral model 
 This api performs feature engineering for selecting which model to use depending on confidence on features mostly for membership_years feature for behavioral model if the membership_confidence => 'low' then it fallback on aggregated model since it does not require feature derivations.
 Results are stored on clustered_results table(aggreageted/behavioral).
 It supports both Aggregated Model (Model A) and Behavioral Model (Model B) including membership normalization.
-API => https://customer-clustering-api-4.onrender.com
+API => https://customer-clustering-api-4.onrender.com/docs
